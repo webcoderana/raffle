@@ -1,0 +1,552 @@
+<style>
+    /* Style the tab */
+    .tab_raffle {
+        float: left;
+        background-color: #ffffff;
+        width: 25%;
+    }
+
+    /* Style the buttons inside the tab */
+.tabcontent h3 {
+    text-transform: uppercase;
+    padding-bottom: 20px;
+    color: #b58484;
+}
+h5.card-title {
+    color: #a37071;
+}
+.tabcontent tr td{border-top: 1px solid #cccccc;
+    width: 115px;
+    text-align: center;}
+    .tab_raffle button {
+        display: block;
+        background-color: #ebebeb;
+        color: black;
+        padding: 15px 16px;
+        margin-bottom: 4px;
+        width: 100%;
+        border: none;
+        outline: none;
+        text-align: left;
+        cursor: pointer;
+        transition: 0.3s;
+        font-size: 17px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab_raffle button:hover {
+        background-color: #ddd;
+    }
+
+    /* Create an active/current "tab button" class */
+    .tab_raffle button.active {
+        background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        float: left;
+        padding: 0px 12px;
+        width: 75%;
+        border-left: none;
+    }
+</style>
+<div class="tab_raffle">
+    <button class="tablinks" onclick="openTab(event, 'buy')"  > BUY & WIN LUXURY CAR</button>
+    <button class="tablinks" onclick="openTab(event, 'case')">TERMS & CONDITIONS</button>
+    <button class="tablinks" onclick="openTab(event, 'winner')" id="defaultOpen">RECENT WINER</button>
+    <button class="tablinks" onclick="openTab(event, 'newevent')">NEWS & EVENTS</button>
+    <button class="tablinks" onclick="openTab(event, 'faq')">FAQ</button>
+</div>
+
+<div id="buy" class="tabcontent">
+   <h1>jdhjsdhj</h1>
+</div>
+
+<div id="case" class="tabcontent">
+    <h3>Terms & Conditions Cash Raffle</h3>
+    <ul class="raflle_term">
+        <li>The ticket price is inclusive of VAT.</li>
+
+        <li>Tickets are limited.</li>
+        <li>Cash raffle details are available on our website where you can also increase your chances of winning by
+            buying more raffle tickets.</li>
+        <li>Draw dates and winner's name will be published in Bahrain Duty Free website and social media accounts below.
+        </li>
+        <li>The winner must provide proof of purchase of ticket (Actual ticket or payment confirmation Email) along with
+            a validated copy of the passport to claim the prize.</li>
+        <li>The winner will win the prize money which will be transferred to the bank account.</li>
+        <li>Any tax liabilities resulting from transferring the money are the sole responsibility of the winner. </li>
+        <li>Employees of Bahrain Duty Free and their families are not eligible to purchase tickets.</li>
+        <li>Bahrain Duty Free reserves the right to use the winner's name and photograph in all promotional, advertising
+            and marketing campaigns.</li>
+        <li>By participating in this raffle, you acknowledge and comply with all terms and conditions above.</li>
+        <li>For more information, please contact us on (+973) 17723100 or email us on info@bdutyfree.com</li>
+    </ul>
+
+    <h3 class="pt-5">Terms & Conditions Car Raffle</h3>
+    <ul class="raflle_term pb-4">
+        <li>The ticket price is inclusive of VAT.</li>
+        <li>All car raffle details are available on our website www.bdutyfree.com where you can also increase your
+            chance of winning by buying more raffle tickets.</li>
+        <li>All duties and VAT fees on claiming the car is the responsibility of the winner.</li>
+        <li> Bahrain Duty Free reserves the right to use the winner name & photograph in all promotional, advertising &
+            marketing campaigns.</li>
+        <li>Draw dates, results and winning number will be published online at our website www.bdutyfree.com & in the
+            social media accounts.</li>
+        <li>The winner must provide the proof of purchase of the ticket ( Actual / payment confirmation email ) along
+            with a validated copy of the passport to claim the prize.</li>
+        <li>Bahrain Duty Free will ship the vehicle free of charge to the nearest sea port as per the address mentioned
+            on the winning ticket.</li>
+        <li>The vehicle will be stored with Bahrain Duty Free for a limited period of one week after the draw.</li>
+        <li> Car conforms to GCC (Gulf Co-operation Council Countries) specifications.</li>
+        <li> Employees of Bahrain Duty Free and their families are prohibited from entering the draw.</li>
+        <li> By participating in this raffle, you acknowledge and comply with all the terms & conditions above.</li>
+        <li>For more information, please contact us on (+973) 17723100 or email us on info@bdutyfree.com </li>
+    </ul>
+</div>
+
+<div id="winner" class="tabcontent">
+<div class="container table-responsive py-5"> 
+<table class="table table-bordered table-hover">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">RAFFLES</th>
+      <th scope="col">TICKETS</th>
+      <th scope="col">DRAW WINNER</th>
+      <th scope="col">NATIONALITY</th>
+      <th scope="col">PRIZE</th>
+      <th scope="col">DRAW DATE </th>
+      <th scope="col">MEDIA</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>M22 - 035</td>
+      <td>167</td>
+      <td>Mr. Melvin Thomas John</td>
+      <td>Indian</td>
+      <td>USD 50,000</td>
+      <td>12-OCT-2022</td>
+      <td></td>
+    </tr>
+    <tr>
+        <td>M22 - 032</td>
+        <td>20</td>
+        <td>Mr. Jayedevan Mundaana</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>22-AUG-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>C22 - 002</td>
+        <td>1534</td>
+        <td>Mr. Ali Husain</td>
+        <td>Bahraini</td>
+        <td>MERCEDES BENZ S500</td>
+        <td>21-AUG-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M22 - 029</td>
+        <td>139</td>
+        <td>Mr. Bingly Pambungal</td>
+        <td>Indian</td>
+        <td>USD 100,000</td>
+        <td>11-AUG-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M22 - 031</td>
+        <td>224</td>
+        <td>Mr. Shakir</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>07-AUG-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M22 - 030</td>
+        <td>287/td>
+        <td>Mr. Fahad Abdalah Ghamdi</td>
+        <td>Saudi</td>
+        <td>USD 50,000</td>
+        <td>26-JULY-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M22 - 028</td>
+        <td>107</td>
+        <td>MR. ANUP KUMAR PANDE</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>30-JUNE-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M22 - 027</td>
+        <td>212</td>
+        <td>MR. SHIJOY KURIAN</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>16-JUNE-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M22 - 026</td>
+        <td>046</td>
+        <td>MS. JOY E. NGWENYA</td>
+        <td>Britishn</td>
+        <td>USD 10,000</td>
+        <td>02-JUNE-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M22 - 025</td>
+        <td>070</td>
+        <td>MR. DINESHKUMAR RAMFER PATEL – Online</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>19-MAY-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>C21 - 001</td>
+        <td>740</td>
+        <td>Mr. MOHAMMAD DARWISH AHMED</td>
+        <td>Emirati</td>
+        <td>LEXUS LS500 TURBO</td>
+        <td>10-May-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M22 - 024</td>
+        <td>016</td>
+        <td>MS. SHRADDHA AMRUTLAL BHIMJANI</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>08-MAY-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M22 - 023</td>
+        <td>199</td>
+        <td>MR. JAGAN MOHAN</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>21-APR-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M22 - 021</td>
+        <td>167</td>
+        <td>MR. ALI ALI JASIM – Online</td>
+        <td>Bahraini</td>
+        <td>USD 25,000</td>
+        <td>06-APR-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M22 - 022</td>
+        <td>347</td>
+        <td>MR. MADHAVAN NAIR PARAMESWARA – Online</td>
+        <td>Indian</td>
+        <td>USD 50,000</td>
+        <td>04-APR-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M22 - 020</td>
+        <td>250</td>
+        <td>MR. ABDALLAH MOHAMMED ZANGINA – Online</td>
+        <td>American</td>
+        <td>USD 10,000</td>
+        <td>02-FEB-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>S20 - 351</td>
+        <td>864</td>
+        <td>Mr. MISHAL NASS</td>
+        <td>Bahraini</td>
+        <td>BENTLEY CONTINENTAL GT</td>
+        <td>13-JAN-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M21 - 019</td>
+        <td>029</td>
+        <td>MR. SUNIL KUMAR KATHURIA – Online</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>11-JAN-2022</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M21 - 018</td>
+        <td>003</td>
+        <td>MR. SIBIN PARIYALI</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>27-DEC-2021</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M21 - 017</td>
+        <td>112</td>
+        <td>MR. MOHAMED ABDULLA</td>
+        <td>Bahraini</td>
+        <td>USD 10,000</td>
+        <td>13-DEC-2021</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M21 - 016</td>
+        <td>163</td>
+        <td>MR. NOUFAL SHIHABUDEEN</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>30-NOV-2021</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M21 - 015</td>
+        <td>221</td>
+        <td>MR. RINSHAD ALI – Online</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>16-NOV-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>M21 - 014</td>
+        <td>097</td>
+        <td>MR. RETHINAM TAMILARASU</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>02-NOV-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>M21 - 013</td>
+        <td>188</td>
+        <td>MR. LUCA SANTL</td>
+        <td>German</td>
+        <td>USD 10,000</td>
+        <td>19-OCT-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>M21 - 012</td>
+        <td>231</td>
+        <td>MR. MOHAMED YUSUF FOOLATH</td>
+        <td>Bahraini</td>
+        <td>USD 10,000</td>
+        <td>07-OCT-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>S20-350</td>
+        <td>257</td>
+        <td>MR. KHALID JAMAL TIRUMANI</td>
+        <td>Indian</td>
+        <td>USD 100,000</td>
+        <td>27-SEP-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>M21 - 011</td>
+        <td>202</td>
+        <td>MR. ADIL MIRAJKAR</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>21-SEP-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>M21 - 010</td>
+        <td>033</td>
+        <td>MR. RETHEESH SIVAN PILLAI – Online</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>06-SEP-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>S20-335</td>
+        <td>721</td>
+        <td>Mr. RODRIGO ACOSTA – Online</td>
+        <td>Philippines</td>
+        <td>PORSCHE CARRERA 911</td>
+        <td>25-AUG-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>M21 - 009</td>
+        <td>073</td>
+        <td>MR. RAJESHKUMAR SARAVANASAMY</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>17-AUG-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>M21 - 008</td>
+        <td>039</td>
+        <td>MR. MOHAMMED JAFER</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>03-AUG-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>M21 - 007</td>
+        <td>167</td>
+        <td>MR. SAMUEL SATHIANATHAM</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>18-JUL-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>M21 - 006</td>
+        <td>141</td>
+        <td>MR. MANIKANDAN RAMASUBRAMANIAN – Online</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>05-JUL-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>M21 - 005</td>
+        <td>243</td>
+        <td>MR. SUGATHA LAL SUKUMARA</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>16-JUN-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>M21 - 004</td>
+        <td>192</td>
+        <td>MR. B SATISH KUMAR</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>26-MAY-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>M21 - 003</td>
+        <td>203</td>
+        <td>MR. CAJETAN FRANCIS D’COSTA</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>10-MAY-2021</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>M21 - 002</td>
+        <td>105</td>
+        <td>MR. MOHAMMAD NIAZI</td>
+        <td>Pakistani</td>
+        <td>USD 10,000</td>
+        <td>19-APR-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>M21 - 001</td>
+        <td>186</td>
+        <td>MR. SANIL KUMAR</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>05-APR-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>S20 - 355</td>
+        <td>058</td>
+        <td>MR. PAUL JOSE MAVELY – Online</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>23-MAR-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>S20 - 354</td>
+        <td>139</td>
+        <td>MR. SARATHVIJAY – Online</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>10-MAR-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>S20 - 353</td>
+        <td>065</td>
+        <td>MR. RAMY MOHAMED AHMED</td>
+        <td>Egyptian</td>
+        <td>USD 10,000</td>
+        <td>01-MAR-2021</td>
+        <td></td>
+      </tr>
+<tr>
+        <td>S20 - 352</td>
+        <td>116</td>
+        <td>MS. MEGHANA KUMAR – Online</td>
+        <td>Indian</td>
+        <td>USD 10,000</td>
+        <td>10-FEB-2021</td>
+        <td></td>
+      </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div id="newevent" class="tabcontent">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card">
+                <img src="https://bdfcdev.experiences.digital/media/wysiwyg/50k_winner_12oct2022.jpeg" class=" img-fluid" alt=".50k winner">
+                <div class="card-body">
+                  <h5 class="card-title">Bahrain Duty Free Congratulates the Winner of our Cash Raffle Draw for $50,000 (M22 – 035) – MR. MELVIN THOMAS JOHN ‘Indian' – Ticket No.167 ( In store Ticket )</h5>
+                  <p class="card-text">From Left to Right: NASSER RADHI – Operations Support Manager & RASHED BIN DAINA – Senior Marketing Manager.</p>
+                  <p class="btn btn-primary">Added on 12 October, 2022</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card">
+        <img src="https://bdfcdev.experiences.digital/media/wysiwyg/50k_winner_12oct2022.jpeg" class=" img-fluid" alt=".50k winner">                <div class="card-body">
+                  <h5 class="card-title">Bahrain Duty Free Congratulates the Winner of our Cash Raffle Draw for $50,000 (M22 – 035) – MR. MELVIN THOMAS JOHN ‘Indian' – Ticket No.167 ( In store Ticket )</h5>
+                  <p class="card-text">From Left to Right: NASSER RADHI – Operations Support Manager & RASHED BIN DAINA – Senior Marketing Manager.</p>
+                  <p class="btn btn-primary">Added on 12 October, 2022</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+<div id="faq" class="tabcontent">
+    <h3>fgfhh</h3>
+    <p>Tokyo is the capital of Japan.</p>
+</div>
+
+<script>
+    function openTab(evt, tabName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(tabName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+
+</script>
